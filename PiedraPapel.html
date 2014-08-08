@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Piedra Papel o Tijera </title>
+
+	<script type="text/javascript" src="/cursos/jankenpon//js/piedra.js" > </script> 
+	<link rel="stylesheet" type="text/css" href="/cursos/jankenpon/css/piedra.css">
+
+</head>
+<body>
+	<header>
+		<h1>Jan Ken Pon!</h1>
+
+		<p>Desafia a la computadora... si te <b>atreves</b></p>
+	</header>
+	<section id="block0"> 
+		<nav>
+			<ul>
+				<li class="jugador" onclick="jugar(0);"><img src="img/Piedra.png" ></li>
+				<li class="jugador" onclick="jugar(1);"><img src="img/Papel.png"  ></li>
+				<li class="jugador" onclick="jugar(2);" ><img src="img/Tijera.png"></li>
+				<li class="jugador" onclick="jugar(3);"><img src="img/Lagarto.png"></li>
+				<li class="jugador" onclick="jugar(4);" ><img src="img/Spock.png" ></li>
+			</ul>
+		</nav>
+	</section>
+	<section id="block1">
+		<div id="combate"></div>
+		<p id="resultado"></p>
+	</section>
+	<section id="block2">
+		<p id="titulo"></p>
+		<p id="contador"></p>
+	</section>
+</body>
+</html>
