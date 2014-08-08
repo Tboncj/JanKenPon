@@ -1,0 +1,80 @@
+	body{
+		color: #fff;
+	    font-family: 'Lato',Arial,sans-serif;
+	    margin: 0;
+	    padding: 0;
+	    width: 100%;
+	}
+	header{
+		background: #1B9AF7 ;	
+		text-align: center;
+	}
+	#block0{
+		text-align: center;
+	}
+	#block1{
+		position: absolute;
+		color: #eff0f2;
+		top: 70%; left: 50%; 
+		transform: translate(-50%, -50%);
+	}
+	#block2{
+		background-color: #24b2da;
+		color: #eff0f2;
+	    font-size: 21px;
+	    font-weight: 100;
+	    left: 10px; 
+	    position: relative;
+	    width: 350px; 
+	}
+
+	.jugador{
+		
+		background-color: #bada55;
+		border-radius: 360px;
+		display: inline-block;
+		height: 140px;
+		list-style: none;
+		margin-left: 10px;
+		padding: 10px;
+		position: relative;
+		width: 140px;
+
+	}
+	.jugador :hover{
+		cursor: pointer;
+	}
+	.jugador img{
+		position: absolute;
+		
+		width: 80%;
+		height: 100px;
+		border-radius: 80px;
+		
+		top: 50%; left: 50%; 
+		transform: translate(-50%, -50%);
+	}
+	.jugador img:hover{
+		opacity: 0.6; 
+		filter: alpha(opacity=30); 
+	}
+	#combate{
+		float:  right;
+		font-size: 30px;
+		color: #eff0f2;
+		background-color: #c0392b;
+		line-height: 2;
+		text-align: center;
+		width: 550px;
+	    font-weight: 300;
+	}
+	#combate img{
+		width: 140px;
+		height: 140px;
+		border-radius: 80px;
+	}
+	#resultado{
+		color: #3ddb94;
+	    font-family: sans-serif;
+	    font-size: 20px;
+	}
